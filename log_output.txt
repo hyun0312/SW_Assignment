@@ -1,0 +1,14 @@
+[hyun0312] Mon May 19 20:03:37 2025 +0900 usecase description 수정 - 저번 버전으로 복구 communication diagram 수정 - actor action 추가 및 pdf 변환 class diagram 수정 - communication diagram 수정된 부분 반영 및 pdf 변환 720127e
+[hyun0312] Mon May 19 16:00:27 2025 +0900 usecase description 수정 - actor가 파일을 통해 system에 전달하는 형식으로 수정 9f115ae
+[hyun0312] Mon May 19 15:02:22 2025 +0900 usecase description 및 communication diagram 수정 - actor requirement 수정 8c8bba6
+[hyun0312] Sun May 18 19:50:15 2025 +0900 class diagram 작성 beeb731
+[hyun0312] Sun May 18 17:08:19 2025 +0900 usecase description 수정 및 communication diagram 수정 - usecase description actor 수정 - communication diagram usecase description에 맞게 수정 9ed2af7
+[hyun0312] Sat May 17 23:57:16 2025 +0900 usecase description 수정 - 자전거 대여 정보 조회할 때 actor의 행동 추가 201df07
+[hyun0312] Sat May 17 23:43:09 2025 +0900 communication diagram 수정 - 로그인 성공 시 session class에서 로그인 정보 관리 - 자전거 대여하면 대여 객체를 만들어서 정보 관리 4f1fe43
+[hyun0312] Fri May 16 18:10:41 2025 +0900 communication diagram 수정 - 논리적으로 어색한 부분 수정 ba71b46
+[hyun0312] Fri May 16 17:15:14 2025 +0900 communication diagram 작성 787dc12
+[hyun0312] Fri May 16 17:12:16 2025 +0900 usecase description 수정 - 자전거 대여 description 수정 4f3d57a
+[hyun0312] Fri May 16 13:36:54 2025 +0900 usecase description 추가 879e2b4
+[hyun0312] Fri May 16 12:58:53 2025 +0900 usecase diagram 추가 및 pdf 파일로 변경 778020c
+[hyun0312] Wed May 14 15:17:15 2025 +0900 requirement list 작성 7de22e0
+[hyun0312] Wed May 14 15:07:19 2025 +0900 Initial commit e1d50e4
