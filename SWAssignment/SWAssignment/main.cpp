@@ -1,7 +1,5 @@
 // 헤더 선언
-#include <iostream>
 #include <fstream>
-
 #include "Signup.h"
 #include "SignIn.h"
 #include "SignOut.h"
@@ -31,7 +29,9 @@ int main()
     // 파일 입출력을 위한 초기화
     in_fp.open(INPUT_FILE_NAME);
     out_fp.open(OUTPUT_FILE_NAME);
+    // 실제 자전거 대여 시스템 동작 함수
     doTask();
+    // 파일 닫기
     out_fp.close();
     in_fp.close();
 
@@ -42,8 +42,9 @@ void doTask()
 {
     // 메뉴 파싱을 위한 level 구분을 위한 변수
     int menu_level_1 = 0, menu_level_2 = 0;
+    // 시스템 종료를 위한 변수
     int is_program_exit = 0;
-
+    // main에서 직접 생성해야 하는 객체
     UserDB* userDb = new UserDB();
     BikeDB* bikeDb = new BikeDB();
     RentDB* rentDb = new RentDB();
@@ -81,7 +82,6 @@ void doTask()
             {
             case 1:   // "2.1. 로그인"
                 signIn->signInStart();
-                cout << "signinstart";
                 break;
             case 2:   // "2.2. 로그아웃"
                 signOut->signOutStart();
